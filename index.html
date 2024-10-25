@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title>  MOO.ASHRAF'Project</title>
+<link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="bootstrap.css">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body style="background-color: black;">
+      <div style="  position:relative;
+      
+      top: 5px;" >
+      <div class="row">
+        <div class="col  ">
+
+
+          <img src="WhatsApp Image 2024-10-09 at 16.18.52_6d6c3455.jpg" onclick="my()">
+     
+        </div>
+        <div class="col ">
+
+
+          <pre id="mm" style="color:yellow ;text-align: center; margin-left: 0px;padding-left: 0%;">
+
+<strong style="color: red;">Mohamed</strong> Ashraf Ebrahim 
+<strong style="color: red;">ID</strong>:803379869</pre>
+          
+        </div>
+        <div class="col "></div>
+        <div class="col "></div>
+       
+      </div>
+   
+      </div>
+          <div class="jumbotron" style="text-align: center;justify-content: center;width: 98%;position: relative;left: 2%;border-radius: 30px;">
+            <h1 class="display-4">Hello,Dr/Rabab!</h1>
+            <p class="lead" > ..........(ANOVA)    سؤال تحليل التباين </p>
+            <hr class="my-4">
+        
+            <table>
+              <p> ...لدينا بيانات لدرجات اختبارات في احدي المدارس  لخمس مجموعات طلابيه تتمثل في هيئة جدول كالتالي</p>
+              <thead>
+                  <tr>
+                      <th>المجموعة (i)</th>
+                      <th>y<sub>i1</sub></th>
+                      <th>y<sub>i2</sub></th>
+                      <th>y<sub>i3</sub></th>
+                      <th>y<sub>i4</sub></th>
+                      <th>y<sub>i5</sub></th>
+                      
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>المجموعة 1</td>
+                      <td>85</td>
+                      <td>90</td>
+                      <td>88</td>
+                      <td>92</td>
+                      <td>87</td>
+                    
+                  </tr>
+                  <tr class="highlight">
+                      <td>المجموعة 2</td>
+                      <td>78</td>
+                      <td>74</td>
+                      <td>80</td>
+                      <td>76</td>
+                      <td>79</td>
+                     
+                  </tr>
+                  <tr>
+                      <td>المجموعة 3</td>
+                      <td>91</td>
+                      <td>89</td>
+                      <td>94</td>
+                      <td>90</td>
+                      <td>93</td>
+                   
+                  </tr>
+                  <tr class="highlight">
+                      <td>المجموعة 4</td>
+                      <td>65</td>
+                      <td>70</td>
+                      <td>68</td>
+                      <td>72</td>
+                      <td>66</td>
+                    
+                  </tr>
+                  <tr>
+                      <td>المجموعة 5</td>
+                      <td>82</td>
+                      <td>84</td>
+                      <td>81</td>
+                      <td>83</td>
+                      <td>85</td>
+                    
+                  </tr>
+             
+              </tbody>
+          </table>
+          <div style="text-align: right;">
+   <p> :مطلوب حسابات التباين الاتية</p> 
+   
+ <p>(sstr)١.مجموع التباين بين المجموعات</p> 
+   <p>(sse)٢.مجموع التباين داخل المجموعات</p> 
+     <p>(ssto)٣.مجموع التباين الكلي </p>
+     <p> treatment mean square (MSTR).٤</p>
+     <p> error mean square (MSE).٥</p>
+     <p> value of F*.٦</p>
+          </div>
+ 
+          
+           <p>
+                <a id="mo" class="btn btn-outline-success" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                 Click To Solve
+                </a>
+             
+             
+            </p>
+            
+            <div id="moo" >
+          <pre style="text-align: left; font-size: medium;">
+
+
+ ȳ<sub>i.</sub>  y<sub>i.</sub>  ȳ<sub>..</sub> y<sub>..</sub>  اولا نقوم بحساب كلا من 
+ وذلك باستخدام الجدول السابق 
+
+ 1.
+   y<sub>i.</sub> = y<sub>i1</sub>+ y<sub>i2</sub>+ y<sub>i3</sub>+ y<sub>i4</sub>+ y<sub>i5</sub>
+
+   y<sub>1.</sub> = y<sub>11</sub>+ y<sub>12</sub>+ y<sub>13</sub>+ y<sub>14</sub>+ y<sub>15</sub> =
+    85 + 90 + 88 + 92 + 87 = 442
+
+   y<sub>2.</sub> = y<sub>21</sub>+ y<sub>22</sub>+ y<sub>23</sub>+ y<sub>24</sub>+ y<sub>25</sub> =
+    78 + 74 + 80 + 76 + 79 = 387
+
+ y<sub>3.</sub> = y<sub>31</sub>+ y<sub>32</sub>+ y<sub>33</sub>+ y<sub>34</sub>+ y<sub>35</sub> =
+  91 + 89 + 94 + 90 + 93 = 457
+
+ y<sub>4.</sub> = y<sub>41</sub>+ y<sub>42</sub>+ y<sub>43</sub>+ y<sub>44</sub>+ y<sub>45</sub> =
+  65 + 70 + 68 + 72 + 66 = 341
+
+ y<sub>5.</sub> = y<sub>51</sub>+ y<sub>52</sub>+ y<sub>53</sub>+ y<sub>54</sub>+ y<sub>55</sub> =
+  82 + 84 + 81 + 83 + 85 = 415
+
+ 
+ 2.
+  ȳ<sub>i.</sub>  =y<sub>i.</sub>/ n<sub>i</sub> 
+
+ 
+ ȳ<sub>1.</sub>  =y<sub>1.</sub>/ n<sub>1</sub> = 442/5= 88.4
+ ȳ<sub>2.</sub>  =y<sub>2.</sub>/ n<sub>2</sub> = 387/5= 77.4
+ ȳ<sub>3.</sub>  =y<sub>3.</sub>/ n<sub>3</sub> = 457/5= 91.4
+ ȳ<sub>4.</sub>  =y<sub>4.</sub>/ n<sub>4</sub> = 341/5= 68.2
+ ȳ<sub>5.</sub>  =y<sub>5.</sub>/ n<sub>5</sub> = 415/5= 83.0
+        
+3.
+ y<sub>..</sub>= y<sub>1.</sub> + y<sub>2.</sub> + y<sub>3.</sub> + y<sub>4.</sub> + y<sub>5.</sub> =
+ 442+387+457+341+415=2042
+
+ 4.
+ ȳ<sub>..</sub> = y<sub>..</sub> /  N<sub>total</sub>=
+ 2042/25 =81.68        (unwighted)
+        ...  ثم نقوم باضافتهم للجدول
+</pre>
+<table>
+  <thead>
+        <tr>
+            <th>المجموعة (i)</th>
+            <th>y<sub>i1</sub></th>
+            <th>y<sub>i2</sub></th>
+            <th>y<sub>i3</sub></th>
+            <th>y<sub>i4</sub></th>
+            <th>y<sub>i5</sub></th>
+            <th>y<sub>i.</sub></th>
+            <th>ȳ<sub>i.</sub></th>
+       <th>n<sub>i</sub></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>المجموعة 1</td>
+            <td>85</td>
+            <td>90</td>
+            <td>88</td>
+            <td>92</td>
+            <td>87</td>
+            <td>442</td>
+            <td>88.4</td>
+            <td>5</td>          
+        </tr>
+        <tr class="highlight">
+            <td>المجموعة 2</td>
+            <td>78</td>
+            <td>74</td>
+            <td>80</td>
+            <td>76</td>
+            <td>79</td>
+            <td>387</td>
+            <td>77.4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>المجموعة 3</td>
+            <td>91</td>
+            <td>89</td>
+            <td>94</td>
+            <td>90</td>
+            <td>93</td>
+            <td>457</td>
+            <td>91.4</td>
+            <td>5</td>
+            
+        </tr>
+        <tr class="highlight">
+            <td>المجموعة 4</td>
+            <td>65</td>
+            <td>70</td>
+            <td>68</td>
+            <td>72</td>
+            <td>66</td>
+            <td>341</td>
+            <td>68.2</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>المجموعة 5</td>
+            <td>82</td>
+            <td>84</td>
+            <td>81</td>
+            <td>83</td>
+            <td>85</td>
+            <td>415</td>
+            <td>83.0</td>
+            <td>5</td>
+        </tr>
+        <tr>
+           
+          
+           
+          
+        
+            
+            <td colspan="3">y<sub>..</sub>=2042</td>
+            <td  colspan="3">ȳ<sub>..</sub>=81.68</td>
+            <td  colspan="3">N<sub>t</sub>=25</td>
+           
+        </tr>
+       
+    </tbody>
+</table>
+
+    
+                <pre style="text-align: left; font-size: medium;">
+1. sstr= 
+sum ( n<sub>i</sub> * ( ȳ<sub>i.</sub>- ȳ<sub>..</sub>)<sup>2</sup>) for i =1,2,3,4,5
+=5[(88.4-81.68)<sup>2</sup>+(77.4-81.68)<sup>2</sup>+(91.4-81.68)<sup>2</sup>+
+(77.468.2-81.68)<sup>2</sup>+(83.0-81.68)<sup>2</sup> ]
+=5*[ 45.27 + 18.36 + 95.04 + 182.06 + 1.76 ] =
+ 5 * 342.49 = 1712.45
+
+  2. sse=
+sum(sum(y<sub>ij</sub>- ȳ<sub>i.</sub>)<sup>2</sup>))for i=1,2,3,4,5 j=1,2,3,4,5
+
+
+
+3.
+ ssto= sstr+sse =1712.45+126.0=1838.45
+  
+4. 
+MSTR=sstr/(r-1)=1712.45/4=428.11
+
+5.
+MSE=sse/(n-r)=126/20=6.3
+
+6.
+f<sup>*</sup>=MSTR/MSE=428.11/6.3=67.8
+                </pre>
+          
+
+
+
+
+                <h2>(ANOVA)</h2>
+            
+<table>
+    <thead>
+        <tr>
+            <th>sourc</th>
+            <th>sum of square</th>
+                            <th> degree of freedom</th>
+            <th>  mean square</th>
+            <th>ratio F</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>treatment </td>
+                            <td>1712.45</td>
+                            <td>4</td>
+                            <td>428.11</td>
+                            <td>67.8</td>
+                        </tr>
+                        <tr class="highlight">
+                            <td>error </td>
+                            <td>126.0</td>
+                            <td>20</td>
+                            <td>6.3</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>total</td>
+                            <td>1838.45</td>
+                            <td>24</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                </div>
+              </div>
+
+
+        <script src="popper.min.js"></script>
+        <script src="jquery-3.7.1.js"></script>
+<script src="bootstrap.js"></script>
+<script src="main.js"></script>
+    </body>
+</html>
